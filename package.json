@@ -1,0 +1,34 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "Let's start the first demo app",
+  "main": "index.js",
+  "scripts": {
+    "execute": "node dist/index.js",
+    "build": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "dts-gen -m ws",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "keywords": [
+    "cryto",
+    "currency",
+    "bitcoin",
+    "litecoin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "properties": "^1.2.1",
+    "properties-parser": "^0.3.1",
+    "request": "^2.83.0",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.7",
+    "@types/request": "^2.0.9",
+    "dts-gen": "^0.5.7",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
